@@ -1,0 +1,18 @@
+{
+    "python.pythonPath": "venv/bin/python",
+    "editor.detectIndentation": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "python.linting.pylintEnabled": false,
+    "editor.wordWrap": "wordWrapColumn",
+    // "editor.wordWrapColumn": 120,
+    "python.linting.mypyEnabled": true,
+    "python.linting.enabled": true,
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "--no-cov"
+    ],
+    "python.languageServer": "Pylance",
+    "python.formatting.provider": "yapf",
+    "files.autoSave": "afterDelay",
+}

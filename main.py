@@ -26,7 +26,8 @@ from tqdm import tqdm
 @dataclass
 class Config:
     """Configuration for the scraper"""
-    years_back: int = 2
+    start_year: int = 1992
+    end_year: int = 2005
     max_threads: int = 40
     base_url: str = 'https://imagem.camara.leg.br/'
     download_dir: str = './downloads'
@@ -166,10 +167,8 @@ class CamaraDownloader:
                 if 1881 <= year <= datetime.now().year:
                     years.add(year)
             
-            # Filter years based on configuration
-            current_year = datetime.now().year
-            start_year = current_year - self.config.years_back
-            filtered_years = [y for y in sorted(years) if y >= start_year]
+            # Filter years based on configuration (start_year to end_year range)
+            filtered_years = [y for y in sorted(years) if self.config.start_year <= y <= self.config.end_year]
             
             self.logger.info(f"Found {len(filtered_years)} years to process: {filtered_years}")
             return filtered_years
@@ -245,18 +244,16 @@ class CamaraDownloader:
     def download_pdf(self, pdf_url: str, date_str: str, year: int) -> bool:
         """Download a single PDF file"""
         try:
-            # Create directory structure
+            # Create directory structure: year/month/day
             date_parts = date_str.split('/')
             if len(date_parts) == 3:
                 day, month, year_str = date_parts
-                month_names = [
-                    '01_Janeiro', '02_Fevereiro', '03_Março', '04_Abril',
-                    '05_Maio', '06_Junho', '07_Julho', '08_Agosto',
-                    '09_Setembro', '10_Outubro', '11_Novembro', '12_Dezembro'
-                ]
-                month_dir = month_names[int(month) - 1]
                 
-                save_dir = Path(self.config.download_dir) / str(year) / month_dir
+                # Ensure month and day are zero-padded
+                month_padded = month.zfill(2)
+                day_padded = day.zfill(2)
+                
+                save_dir = Path(self.config.download_dir) / str(year) / month_padded / day_padded
                 save_dir.mkdir(parents=True, exist_ok=True)
                 
                 # Extract filename from URL
@@ -282,7 +279,7 @@ class CamaraDownloader:
                                 if chunk:
                                     f.write(chunk)
                         
-                        self.logger.info(f"Downloaded: {filename}")
+                        self.logger.info(f"Downloaded: {filename} -> {save_path}")
                         self.progress.update_stats('downloads_completed', 1)
                         return True
                         
@@ -401,18 +398,25 @@ def main():
     import sys
     if len(sys.argv) > 1:
         try:
-            config.years_back = int(sys.argv[1])
+            config.start_year = int(sys.argv[1])
         except ValueError:
-            print("Invalid years_back argument. Using default: 2")
+            print("Invalid start_year argument. Using default: 1992")
     
     if len(sys.argv) > 2:
         try:
-            config.max_threads = int(sys.argv[2])
+            config.end_year = int(sys.argv[2])
         except ValueError:
-            print("Invalid max_threads argument. Using default: 15")
+            print("Invalid end_year argument. Using default: 2005")
+    
+    if len(sys.argv) > 3:
+        try:
+            config.max_threads = int(sys.argv[3])
+        except ValueError:
+            print("Invalid max_threads argument. Using default: 40")
     
     print(f"Configuration:")
-    print(f"  Years back: {config.years_back}")
+    print(f"  Start year: {config.start_year}")
+    print(f"  End year: {config.end_year}")
     print(f"  Max threads: {config.max_threads}")
     print(f"  Download directory: {config.download_dir}")
     print()

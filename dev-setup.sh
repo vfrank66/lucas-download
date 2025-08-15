@@ -93,6 +93,6 @@ if [ "$UPDATE_REQS" ]; then
 fi 
 
 
-python${PY_VERSION} -m pip install -r requirements-dev.txt  -i https://repomanager.tools.hcs.cloud/repository/pypi-group/simple
+python${PY_VERSION} -m pip install -r requirements-dev.txt 
 
 set +e

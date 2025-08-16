@@ -1,0 +1,134 @@
+[
+  {
+    "archive": "1993-01.zip",
+    "year": 1993,
+    "month": 1,
+    "file_count": 14,
+    "original_size": 157549411,
+    "compressed_size": 152028028,
+    "compression_ratio": 3.5045405533125074,
+    "created_date": "2025-08-16T06:55:07.095304",
+    "sha256": "2d7299b73c9c9ce20015da53512840f54691f80c861b3e1909dfe6ce128ba3b8"
+  },
+  {
+    "archive": "1993-02.zip",
+    "year": 1993,
+    "month": 2,
+    "file_count": 16,
+    "original_size": 165403748,
+    "compressed_size": 158791837,
+    "compression_ratio": 3.997437228568723,
+    "created_date": "2025-08-16T06:55:12.295330",
+    "sha256": "b33362a32d7292966c5cd4b2f6367876907f400087858fdc65d6bcc0a16c544f"
+  },
+  {
+    "archive": "1993-03.zip",
+    "year": 1993,
+    "month": 3,
+    "file_count": 21,
+    "original_size": 261319437,
+    "compressed_size": 251624176,
+    "compression_ratio": 3.7101185856297403,
+    "created_date": "2025-08-16T06:55:20.754539",
+    "sha256": "f4399ab2b4dbe0a0bee128ebc702c9c2c8e7113c2b9615b68996bd67f374a40d"
+  },
+  {
+    "archive": "1993-04.zip",
+    "year": 1993,
+    "month": 4,
+    "file_count": 19,
+    "original_size": 266986355,
+    "compressed_size": 257744922,
+    "compression_ratio": 3.4613877551907146,
+    "created_date": "2025-08-16T06:55:29.447084",
+    "sha256": "1b8f07fea98163a58ccf4c3b4ae949c220286de33ef3f43cfb113097d3c646b8"
+  },
+  {
+    "archive": "1993-05.zip",
+    "year": 1993,
+    "month": 5,
+    "file_count": 21,
+    "original_size": 214855022,
+    "compressed_size": 207418555,
+    "compression_ratio": 3.461155774148017,
+    "created_date": "2025-08-16T06:55:36.706986",
+    "sha256": "cc713f3dbc7741a9d00c0a6e603d0ac62107ee351cf6cbaf924d02236f6fc72f"
+  },
+  {
+    "archive": "1993-06.zip",
+    "year": 1993,
+    "month": 6,
+    "file_count": 21,
+    "original_size": 324063028,
+    "compressed_size": 312010592,
+    "compression_ratio": 3.7191641621024396,
+    "created_date": "2025-08-16T06:55:47.150635",
+    "sha256": "5c2ee23d8578f6ed4db639d0ce64f3abb3813e9f5551f3a38ba04211f08f8915"
+  },
+  {
+    "archive": "1993-07.zip",
+    "year": 1993,
+    "month": 7,
+    "file_count": 10,
+    "original_size": 126568131,
+    "compressed_size": 122781108,
+    "compression_ratio": 2.992082580408806,
+    "created_date": "2025-08-16T06:55:50.898150",
+    "sha256": "f20f6abfb1ad102468ea17427f1dbdbbafdb14ac7682db4662796063cbe5e096"
+  },
+  {
+    "archive": "1993-08.zip",
+    "year": 1993,
+    "month": 8,
+    "file_count": 20,
+    "original_size": 300673654,
+    "compressed_size": 289041458,
+    "compression_ratio": 3.868711423582194,
+    "created_date": "2025-08-16T06:56:00.390492",
+    "sha256": "fc86e57773b630a0aba160239d325f9f725b05cc1ac766e1d998c49b7709e18c"
+  },
+  {
+    "archive": "1993-09.zip",
+    "year": 1993,
+    "month": 9,
+    "file_count": 21,
+    "original_size": 357283926,
+    "compressed_size": 343437465,
+    "compression_ratio": 3.875478293977319,
+    "created_date": "2025-08-16T06:56:11.490938",
+    "sha256": "3759524ad53fdf5dfe244a30b6e2e58dad83a1dd81dfa0384330c7863fe5c815"
+  },
+  {
+    "archive": "1993-10.zip",
+    "year": 1993,
+    "month": 10,
+    "file_count": 19,
+    "original_size": 271603281,
+    "compressed_size": 260484236,
+    "compression_ratio": 4.093855184319373,
+    "created_date": "2025-08-16T06:56:19.485510",
+    "sha256": "888e93b8584587de53b25bf9061ef2f99c17e50f5440e56c41f6fff91b4b0c36"
+  },
+  {
+    "archive": "1993-11.zip",
+    "year": 1993,
+    "month": 11,
+    "file_count": 14,
+    "original_size": 242875073,
+    "compressed_size": 232747766,
+    "compression_ratio": 4.169759734874068,
+    "created_date": "2025-08-16T06:56:27.392032",
+    "sha256": "aaa44e1593fbbb6acfc04d5bd59d00f4863f7eabf0fd39401abd9c117e6160c9"
+  },
+  {
+    "archive": "1993-12.zip",
+    "year": 1993,
+    "month": 12,
+    "file_count": 11,
+    "original_size": 165393558,
+    "compressed_size": 158722430,
+    "compression_ratio": 4.0334872051062565,
+    "created_date": "2025-08-16T06:56:32.615210",
+    "sha256": "2bfedb0aae713bb63c61379affa2a1c2495ac5fa44a5ecbfe8437adc92ee0c00"
+  }
+]

@@ -1,0 +1,493 @@
+{
+  "created_date": "2025-08-16T07:00:58.528416",
+  "statistics": {
+    "total_files": 736,
+    "total_size_original": 9040913743,
+    "total_size_compressed": 8706700425,
+    "archives_created": 43,
+    "compression_ratio": 3.69667632609334
+  },
+  "years": {
+    "1992": [
+      {
+        "archive": "1992-01.zip",
+        "year": 1992,
+        "month": 1,
+        "file_count": 9,
+        "original_size": 167162404,
+        "compressed_size": 161710626,
+        "compression_ratio": 3.2613661143566675,
+        "created_date": "2025-08-16T06:53:19.243595",
+        "sha256": "a5147de8c0ad540740fea4b4a5d882d3a02c889adf97228b7baf7231f7eaff30"
+      },
+      {
+        "archive": "1992-02.zip",
+        "year": 1992,
+        "month": 2,
+        "file_count": 10,
+        "original_size": 167655562,
+        "compressed_size": 161712580,
+        "compression_ratio": 3.544756839024521,
+        "created_date": "2025-08-16T06:53:24.573817",
+        "sha256": "22055b9f7eb3386e8cb88ff7b641206bd08a3a61329a2977f0fad4b3fe218454"
+      },
+      {
+        "archive": "1992-03.zip",
+        "year": 1992,
+        "month": 3,
+        "file_count": 19,
+        "original_size": 302751559,
+        "compressed_size": 291983009,
+        "compression_ratio": 3.5568933271785452,
+        "created_date": "2025-08-16T06:53:33.105931",
+        "sha256": "662678e97b1ad87b4a481d292525079c5d1ca562463526d6bdf88fd156888ee7"
+      },
+      {
+        "archive": "1992-04.zip",
+        "year": 1992,
+        "month": 4,
+        "file_count": 19,
+        "original_size": 282324475,
+        "compressed_size": 272307639,
+        "compression_ratio": 3.5479871165969623,
+        "created_date": "2025-08-16T06:53:41.236925",
+        "sha256": "d59841889a881d7294f23cfbb03b6a320b2d5241b916d2c2f75c2114c8969457"
+      },
+      {
+        "archive": "1992-05.zip",
+        "year": 1992,
+        "month": 5,
+        "file_count": 22,
+        "original_size": 444127555,
+        "compressed_size": 429536231,
+        "compression_ratio": 3.285390387452991,
+        "created_date": "2025-08-16T06:53:55.103032",
+        "sha256": "7b740f101b3c6db589d5fd1cb6be01d005f9b17d7c626b2ec6a5c33670422137"
+      },
+      {
+        "archive": "1992-06.zip",
+        "year": 1992,
+        "month": 6,
+        "file_count": 20,
+        "original_size": 399447560,
+        "compressed_size": 385637003,
+        "compression_ratio": 3.4574142848688316,
+        "created_date": "2025-08-16T06:54:08.842220",
+        "sha256": "1a7961557c902d7472ed37d6ff0695963ceb8bd5cda33bf2b4c3fc6b6c8ba0c5"
+      },
+      {
+        "archive": "1992-07.zip",
+        "year": 1992,
+        "month": 7,
+        "file_count": 21,
+        "original_size": 281973722,
+        "compressed_size": 271630760,
+        "compression_ratio": 3.668058827127163,
+        "created_date": "2025-08-16T06:54:19.106262",
+        "sha256": "20226ac52c204a7dd8d1693746cbbf67b9d10a3faf6ea152b821c8e2f1b57078"
+      },
+      {
+        "archive": "1992-08.zip",
+        "year": 1992,
+        "month": 8,
+        "file_count": 21,
+        "original_size": 242149568,
+        "compressed_size": 233454119,
+        "compression_ratio": 3.5909413639755083,
+        "created_date": "2025-08-16T06:54:27.161150",
+        "sha256": "5772a0058c5ed4d515f840a133769a0465bef06e05792662e6d94ebcd71879c3"
+      },
+      {
+        "archive": "1992-09.zip",
+        "year": 1992,
+        "month": 9,
+        "file_count": 21,
+        "original_size": 310429136,
+        "compressed_size": 298922017,
+        "compression_ratio": 3.706842453087267,
+        "created_date": "2025-08-16T06:54:37.450162",
+        "sha256": "d3c4bad183b86bfab02a91c71ea34d44bff8ffb573fe58b49f6199d39772e1d8"
+      },
+      {
+        "archive": "1992-10.zip",
+        "year": 1992,
+        "month": 10,
+        "file_count": 22,
+        "original_size": 227214906,
+        "compressed_size": 219058645,
+        "compression_ratio": 3.5896681003842246,
+        "created_date": "2025-08-16T06:54:44.847243",
+        "sha256": "1dc08dad1b12395d648b105a00c9dfb53bbed79233339750ef9d326834e5451d"
+      },
+      {
+        "archive": "1992-11.zip",
+        "year": 1992,
+        "month": 11,
+        "file_count": 19,
+        "original_size": 212101076,
+        "compressed_size": 204374966,
+        "compression_ratio": 3.642654787852184,
+        "created_date": "2025-08-16T06:54:52.075568",
+        "sha256": "298ec1978afaae9d62213a61b61d9f83b1fc3d148058fa27eef386a7ea55ce96"
+      },
+      {
+        "archive": "1992-12.zip",
+        "year": 1992,
+        "month": 12,
+        "file_count": 19,
+        "original_size": 308741607,
+        "compressed_size": 297726872,
+        "compression_ratio": 3.567622487629274,
+        "created_date": "2025-08-16T06:55:02.101553",
+        "sha256": "6bb7cd21560759419d0ec2d26a8673a0fcaf3754e473865aef648a1a1bdc917b"
+      }
+    ],
+    "1993": [
+      {
+        "archive": "1993-01.zip",
+        "year": 1993,
+        "month": 1,
+        "file_count": 14,
+        "original_size": 157549411,
+        "compressed_size": 152028028,
+        "compression_ratio": 3.5045405533125074,
+        "created_date": "2025-08-16T06:55:07.095304",
+        "sha256": "2d7299b73c9c9ce20015da53512840f54691f80c861b3e1909dfe6ce128ba3b8"
+      },
+      {
+        "archive": "1993-02.zip",
+        "year": 1993,
+        "month": 2,
+        "file_count": 16,
+        "original_size": 165403748,
+        "compressed_size": 158791837,
+        "compression_ratio": 3.997437228568723,
+        "created_date": "2025-08-16T06:55:12.295330",
+        "sha256": "b33362a32d7292966c5cd4b2f6367876907f400087858fdc65d6bcc0a16c544f"
+      },
+      {
+        "archive": "1993-03.zip",
+        "year": 1993,
+        "month": 3,
+        "file_count": 21,
+        "original_size": 261319437,
+        "compressed_size": 251624176,
+        "compression_ratio": 3.7101185856297403,
+        "created_date": "2025-08-16T06:55:20.754539",
+        "sha256": "f4399ab2b4dbe0a0bee128ebc702c9c2c8e7113c2b9615b68996bd67f374a40d"
+      },
+      {
+        "archive": "1993-04.zip",
+        "year": 1993,
+        "month": 4,
+        "file_count": 19,
+        "original_size": 266986355,
+        "compressed_size": 257744922,
+        "compression_ratio": 3.4613877551907146,
+        "created_date": "2025-08-16T06:55:29.447084",
+        "sha256": "1b8f07fea98163a58ccf4c3b4ae949c220286de33ef3f43cfb113097d3c646b8"
+      },
+      {
+        "archive": "1993-05.zip",
+        "year": 1993,
+        "month": 5,
+        "file_count": 21,
+        "original_size": 214855022,
+        "compressed_size": 207418555,
+        "compression_ratio": 3.461155774148017,
+        "created_date": "2025-08-16T06:55:36.706986",
+        "sha256": "cc713f3dbc7741a9d00c0a6e603d0ac62107ee351cf6cbaf924d02236f6fc72f"
+      },
+      {
+        "archive": "1993-06.zip",
+        "year": 1993,
+        "month": 6,
+        "file_count": 21,
+        "original_size": 324063028,
+        "compressed_size": 312010592,
+        "compression_ratio": 3.7191641621024396,
+        "created_date": "2025-08-16T06:55:47.150635",
+        "sha256": "5c2ee23d8578f6ed4db639d0ce64f3abb3813e9f5551f3a38ba04211f08f8915"
+      },
+      {
+        "archive": "1993-07.zip",
+        "year": 1993,
+        "month": 7,
+        "file_count": 10,
+        "original_size": 126568131,
+        "compressed_size": 122781108,
+        "compression_ratio": 2.992082580408806,
+        "created_date": "2025-08-16T06:55:50.898150",
+        "sha256": "f20f6abfb1ad102468ea17427f1dbdbbafdb14ac7682db4662796063cbe5e096"
+      },
+      {
+        "archive": "1993-08.zip",
+        "year": 1993,
+        "month": 8,
+        "file_count": 20,
+        "original_size": 300673654,
+        "compressed_size": 289041458,
+        "compression_ratio": 3.868711423582194,
+        "created_date": "2025-08-16T06:56:00.390492",
+        "sha256": "fc86e57773b630a0aba160239d325f9f725b05cc1ac766e1d998c49b7709e18c"
+      },
+      {
+        "archive": "1993-09.zip",
+        "year": 1993,
+        "month": 9,
+        "file_count": 21,
+        "original_size": 357283926,
+        "compressed_size": 343437465,
+        "compression_ratio": 3.875478293977319,
+        "created_date": "2025-08-16T06:56:11.490938",
+        "sha256": "3759524ad53fdf5dfe244a30b6e2e58dad83a1dd81dfa0384330c7863fe5c815"
+      },
+      {
+        "archive": "1993-10.zip",
+        "year": 1993,
+        "month": 10,
+        "file_count": 19,
+        "original_size": 271603281,
+        "compressed_size": 260484236,
+        "compression_ratio": 4.093855184319373,
+        "created_date": "2025-08-16T06:56:19.485510",
+        "sha256": "888e93b8584587de53b25bf9061ef2f99c17e50f5440e56c41f6fff91b4b0c36"
+      },
+      {
+        "archive": "1993-11.zip",
+        "year": 1993,
+        "month": 11,
+        "file_count": 14,
+        "original_size": 242875073,
+        "compressed_size": 232747766,
+        "compression_ratio": 4.169759734874068,
+        "created_date": "2025-08-16T06:56:27.392032",
+        "sha256": "aaa44e1593fbbb6acfc04d5bd59d00f4863f7eabf0fd39401abd9c117e6160c9"
+      },
+      {
+        "archive": "1993-12.zip",
+        "year": 1993,
+        "month": 12,
+        "file_count": 11,
+        "original_size": 165393558,
+        "compressed_size": 158722430,
+        "compression_ratio": 4.0334872051062565,
+        "created_date": "2025-08-16T06:56:32.615210",
+        "sha256": "2bfedb0aae713bb63c61379affa2a1c2495ac5fa44a5ecbfe8437adc92ee0c00"
+      }
+    ],
+    "1994": [
+      {
+        "archive": "1994-01.zip",
+        "year": 1994,
+        "month": 1,
+        "file_count": 10,
+        "original_size": 66735806,
+        "compressed_size": 63525529,
+        "compression_ratio": 4.810426654620759,
+        "created_date": "2025-08-16T06:56:34.855489",
+        "sha256": "9d89aab015e913738c17ef0f9df274a4140de42f09a44c17b43c1a0d9e89fdf1"
+      },
+      {
+        "archive": "1994-02.zip",
+        "year": 1994,
+        "month": 2,
+        "file_count": 17,
+        "original_size": 113961345,
+        "compressed_size": 108952936,
+        "compression_ratio": 4.3948314228829055,
+        "created_date": "2025-08-16T06:56:38.416246",
+        "sha256": "c369164c6623997d05d561989110f33c0d35af7edee18ec8f2a7c8e34e382992"
+      },
+      {
+        "archive": "1994-03.zip",
+        "year": 1994,
+        "month": 3,
+        "file_count": 19,
+        "original_size": 142035015,
+        "compressed_size": 135219927,
+        "compression_ratio": 4.798174590962656,
+        "created_date": "2025-08-16T06:56:42.983294",
+        "sha256": "018b55533882a6fd1b0ee2ba0753cd24d47bfeb28d67fe99125a0afb8bf5a320"
+      },
+      {
+        "archive": "1994-04.zip",
+        "year": 1994,
+        "month": 4,
+        "file_count": 17,
+        "original_size": 100972596,
+        "compressed_size": 96332114,
+        "compression_ratio": 4.595783592609626,
+        "created_date": "2025-08-16T06:56:46.190631",
+        "sha256": "6684061b8dd0a1317b7e8c2c6b1f052474c2de6beae77b8517f0140404bc5234"
+      },
+      {
+        "archive": "1994-05.zip",
+        "year": 1994,
+        "month": 5,
+        "file_count": 13,
+        "original_size": 43840926,
+        "compressed_size": 42021812,
+        "compression_ratio": 4.149351224926223,
+        "created_date": "2025-08-16T06:56:47.611898",
+        "sha256": "b6b25efd0090a6b73b4ccee3d17bd530cb7ab04f6de3e58acc13f2678181ae87"
+      },
+      {
+        "archive": "1994-06.zip",
+        "year": 1994,
+        "month": 6,
+        "file_count": 20,
+        "original_size": 191385832,
+        "compressed_size": 183640239,
+        "compression_ratio": 4.047108878989536,
+        "created_date": "2025-08-16T06:56:53.676015",
+        "sha256": "39022176ad5782c1b3e4dabf6e5dfb5b75054724f964fdac03e3d0431f8540fe"
+      },
+      {
+        "archive": "1994-07.zip",
+        "year": 1994,
+        "month": 7,
+        "file_count": 5,
+        "original_size": 50115222,
+        "compressed_size": 48274133,
+        "compression_ratio": 3.67371215077128,
+        "created_date": "2025-08-16T06:56:55.450212",
+        "sha256": "21a1c7d7bc20b9ac57270f28fe46b16ebf26a674aa5caf7676e1ad0f61b81cde"
+      },
+      {
+        "archive": "1994-08.zip",
+        "year": 1994,
+        "month": 8,
+        "file_count": 20,
+        "original_size": 84356672,
+        "compressed_size": 80367729,
+        "compression_ratio": 4.728663311895476,
+        "created_date": "2025-08-16T06:56:58.102034",
+        "sha256": "e64a1b1a186f9311dcf55e234bb18e42b8589d6be7d6f576797bc3d3a689ae42"
+      },
+      {
+        "archive": "1994-09.zip",
+        "year": 1994,
+        "month": 9,
+        "file_count": 21,
+        "original_size": 30563839,
+        "compressed_size": 29004215,
+        "compression_ratio": 5.102840647734075,
+        "created_date": "2025-08-16T06:56:59.211315",
+        "sha256": "af516ecd9ff833e8d22ee738f0a33cee110df2bc11b4b9a65d37a092d2ef3d14"
+      },
+      {
+        "archive": "1994-10.zip",
+        "year": 1994,
+        "month": 10,
+        "file_count": 18,
+        "original_size": 102309884,
+        "compressed_size": 98006274,
+        "compression_ratio": 4.206445977399409,
+        "created_date": "2025-08-16T06:57:02.393271",
+        "sha256": "83dd096014401936d9430d1b8e6eef86a65940d75f56c43ed8945392c7d47c71"
+      },
+      {
+        "archive": "1994-11.zip",
+        "year": 1994,
+        "month": 11,
+        "file_count": 20,
+        "original_size": 123195582,
+        "compressed_size": 118132236,
+        "compression_ratio": 4.110006152655698,
+        "created_date": "2025-08-16T06:57:06.382748",
+        "sha256": "42e4be2cec187b411a11575f24915f3d14428860161884b11e1a57082a9c6687"
+      },
+      {
+        "archive": "1994-12.zip",
+        "year": 1994,
+        "month": 12,
+        "file_count": 15,
+        "original_size": 102482334,
+        "compressed_size": 97810231,
+        "compression_ratio": 4.558935006300691,
+        "created_date": "2025-08-16T06:57:09.713724",
+        "sha256": "3d098e96286cef735c54f3be14de0e4a88825b7669dbeb0c0320b10dd8579db7"
+      }
+    ],
+    "1995": [
+      {
+        "archive": "1995-01.zip",
+        "year": 1995,
+        "month": 1,
+        "file_count": 21,
+        "original_size": 184394350,
+        "compressed_size": 178044214,
+        "compression_ratio": 3.4437801375150623,
+        "created_date": "2025-08-16T06:57:15.440794",
+        "sha256": "a30c7e2a4951577d7618150f84b6885539d46bf51f56e120de3a133e1f2160dc"
+      },
+      {
+        "archive": "1995-02.zip",
+        "year": 1995,
+        "month": 2,
+        "file_count": 10,
+        "original_size": 103146083,
+        "compressed_size": 99497892,
+        "compression_ratio": 3.5369166660453755,
+        "created_date": "2025-08-16T06:57:18.890335",
+        "sha256": "3e2c38006521ebd6e7373a30dc057e649d7441d7bcce4cb86e2cc21febea5704"
+      },
+      {
+        "archive": "1995-03.zip",
+        "year": 1995,
+        "month": 3,
+        "file_count": 20,
+        "original_size": 319284953,
+        "compressed_size": 308653754,
+        "compression_ratio": 3.329689952535908,
+        "created_date": "2025-08-16T06:57:31.029265",
+        "sha256": "bddf7246e5539ba414778130deb56f5fc58e9d54e40dc79d0e0a843c7319fffa"
+      },
+      {
+        "archive": "1995-04.zip",
+        "year": 1995,
+        "month": 4,
+        "file_count": 18,
+        "original_size": 334222790,
+        "compressed_size": 322131062,
+        "compression_ratio": 3.6178645986409297,
+        "created_date": "2025-08-16T06:57:44.302522",
+        "sha256": "59895418e4750819369a52897e9649ef610f848e4f148efb71997a2025786a88"
+      },
+      {
+        "archive": "1995-05.zip",
+        "year": 1995,
+        "month": 5,
+        "file_count": 21,
+        "original_size": 368276508,
+        "compressed_size": 356055487,
+        "compression_ratio": 3.3184362115218025,
+        "created_date": "2025-08-16T06:57:58.727474",
+        "sha256": "4ff019fe92d943919fd2f52bced60c62a85f5a69f06d05bb92c65e9be0a840c5"
+      },
+      {
+        "archive": "1995-06.zip",
+        "year": 1995,
+        "month": 6,
+        "file_count": 20,
+        "original_size": 346323159,
+        "compressed_size": 334296089,
+        "compression_ratio": 3.4727882578594715,
+        "created_date": "2025-08-16T06:58:13.177928",
+        "sha256": "2a8d6d489ed89007a34fe6a6d1c151c917aaddc9f7a8700f2535c2ec7478fbb2"
+      },
+      {
+        "archive": "1995-07.zip",
+        "year": 1995,
+        "month": 7,
+        "file_count": 2,
+        "original_size": 32657093,
+        "compressed_size": 31847512,
+        "compression_ratio": 2.4790357182128853,
+        "created_date": "2025-08-16T06:58:15.060029",
+        "sha256": "5cb41080585bf6be37a80e3bccd09dcdc3e7edfc8827b15fd0ebfd69bf568ad6"
+      }
+    ]
+  }
+}

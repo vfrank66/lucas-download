@@ -11,6 +11,7 @@ import json
 import time
 import logging
 import requests
+import urllib3
 from datetime import datetime, timedelta
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urljoin, urlparse
@@ -23,12 +24,15 @@ from urllib3.util.retry import Retry
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
+# Disable SSL warnings when verification is disabled
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
 
 @dataclass
 class Config:
     """Configuration for the scraper"""
     start_year: int = 1992
-    end_year: int = 2005
+    end_year: int = 1992
     max_threads: int = 40
     base_url: str = 'https://imagem.camara.leg.br/'
     download_dir: str = './downloads'
@@ -99,6 +103,9 @@ class CamaraDownloader:
         self.config = config
         self.session = requests.Session()
         self.session.headers.update({'User-Agent': config.user_agent})
+        
+        # Disable SSL verification for government sites with cert issues
+        self.session.verify = False
         
         # Configure connection pool with custom adapter
         adapter = HTTPAdapter(
@@ -181,15 +188,28 @@ class CamaraDownloader:
     def get_year_calendar(self, year: int) -> List[Tuple[str, str]]:
         """Get all available date links for a specific year"""
         try:
-            url = urljoin(self.config.base_url, f'pesquisa_diario_basica.asp?ano={year}')
-            response = self.session.get(url, timeout=self.config.request_timeout)
+            url = urljoin(self.config.base_url, 'pesquisa_diario_basica.asp')
+            
+            # Use POST request with proper form data to select the specific year
+            form_data = {
+                'selCodColecaoCsv': 'DCD',  # Diários da Câmara dos Deputados
+                'ano': str(year),           # The specific year we want
+                'enviar2': 'Pesquisar',    # Submit button value
+                'blnOnChange': '0'          # Hidden field from the form
+            }
+            
+            response = self.session.post(url, data=form_data, timeout=self.config.request_timeout)
             response.raise_for_status()
+            
+            # Verify we got the correct year
+            if f'<strong>{year}</strong>' not in response.text:
+                self.logger.warning(f"May not have received calendar for year {year}")
             
             soup = BeautifulSoup(response.content, 'html.parser')
             date_links = []
             
-            # Find all links with the date pattern
-            for link in soup.find_all('a', class_='WeekDay'):
+            # Find all links with the date pattern (both weekdays and weekends)
+            for link in soup.find_all('a', class_=['WeekDay', 'WeekEnd']):
                 href = link.get('href', '')
                 if 'dc_20b.asp' in href and 'Datain=' in href:
                     # Extract date from href

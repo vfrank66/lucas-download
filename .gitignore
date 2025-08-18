@@ -162,3 +162,19 @@ building/*requirements*.txt
 scripts/qa
 
 .devcontainer/*.env
+# Compression process files
+compression.log
+test_output.log
+
+# Temporary extraction folders
+extracted/
+temp/
+
+# Keep archives directory but ignore if too large
+# archives/
+
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+venv/
+.env

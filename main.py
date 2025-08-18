@@ -4,6 +4,7 @@ Brazilian Chamber of Deputies PDF Scraper
 Downloads PDF documents from https://imagem.camara.leg.br/pesquisa_diario_basica.asp
 """
 
+
 import os
 import re
 import json

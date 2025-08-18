@@ -1,0 +1,134 @@
+[
+  {
+    "archive": "1998-01.zip",
+    "year": 1998,
+    "month": 1,
+    "file_count": 18,
+    "original_size": 40681811,
+    "compressed_size": 40122481,
+    "compression_ratio": 1.3748896281928102,
+    "created_date": "2025-08-18T09:08:58.645320",
+    "sha256": "0bf43bb1da352d5b3db81f5ed38131f2fe70e15ffa09992d1b012ed24082a2d7"
+  },
+  {
+    "archive": "1998-02.zip",
+    "year": 1998,
+    "month": 2,
+    "file_count": 16,
+    "original_size": 48675570,
+    "compressed_size": 47971816,
+    "compression_ratio": 1.4458053598550569,
+    "created_date": "2025-08-18T09:08:59.930111",
+    "sha256": "99c7999805d0aea4b2510bf1e35c3d3c0e446c914fa4b93d82729b6596a5daa6"
+  },
+  {
+    "archive": "1998-03.zip",
+    "year": 1998,
+    "month": 3,
+    "file_count": 21,
+    "original_size": 41151295,
+    "compressed_size": 40678393,
+    "compression_ratio": 1.149178901903325,
+    "created_date": "2025-08-18T09:09:01.088526",
+    "sha256": "b957729471d9a27d365df7564595065341a146231244c9d32b8087a89841f88c"
+  },
+  {
+    "archive": "1998-04.zip",
+    "year": 1998,
+    "month": 4,
+    "file_count": 16,
+    "original_size": 36037340,
+    "compressed_size": 35557301,
+    "compression_ratio": 1.3320600244080216,
+    "created_date": "2025-08-18T09:09:02.116090",
+    "sha256": "237ac5e55fe51a3a8db7e4a78b7a8efe071ed4c0231e6eb1285e8122b6df4c2a"
+  },
+  {
+    "archive": "1998-05.zip",
+    "year": 1998,
+    "month": 5,
+    "file_count": 21,
+    "original_size": 33367061,
+    "compressed_size": 33016286,
+    "compression_ratio": 1.0512613022765183,
+    "created_date": "2025-08-18T09:09:03.122176",
+    "sha256": "f685fb47d1c6aa5b408a8deb08dc89fdd081b477af0785509516889ba9e172f0"
+  },
+  {
+    "archive": "1998-06.zip",
+    "year": 1998,
+    "month": 6,
+    "file_count": 20,
+    "original_size": 36079172,
+    "compressed_size": 35617421,
+    "compression_ratio": 1.279827042593995,
+    "created_date": "2025-08-18T09:09:04.213438",
+    "sha256": "aa68413d6b233df6a4d8922bd79909170df8a53193c7c61c3d506245f90e80a6"
+  },
+  {
+    "archive": "1998-07.zip",
+    "year": 1998,
+    "month": 7,
+    "file_count": 2,
+    "original_size": 6160384,
+    "compressed_size": 6026663,
+    "compression_ratio": 2.170660140666558,
+    "created_date": "2025-08-18T09:09:04.409304",
+    "sha256": "804975326953d35926f34de3aabf5badd805091a2ad5486950549b6cec02daba"
+  },
+  {
+    "archive": "1998-08.zip",
+    "year": 1998,
+    "month": 8,
+    "file_count": 20,
+    "original_size": 34548475,
+    "compressed_size": 33951856,
+    "compression_ratio": 1.7269040095112764,
+    "created_date": "2025-08-18T09:09:05.423707",
+    "sha256": "5a03a07ce1d57dedca0e27c2ceae4511d3ab9a12f9d5407be9f498924c447d06"
+  },
+  {
+    "archive": "1998-09.zip",
+    "year": 1998,
+    "month": 9,
+    "file_count": 21,
+    "original_size": 40042855,
+    "compressed_size": 39281197,
+    "compression_ratio": 1.9021071299736292,
+    "created_date": "2025-08-18T09:09:06.559951",
+    "sha256": "2ba5dc3d99d80e1d0546dcef116e1eeefb9ca14d6fffbf1df3ad871d46b92a79"
+  },
+  {
+    "archive": "1998-10.zip",
+    "year": 1998,
+    "month": 10,
+    "file_count": 21,
+    "original_size": 34939275,
+    "compressed_size": 34281374,
+    "compression_ratio": 1.882984120305875,
+    "created_date": "2025-08-18T09:09:07.509328",
+    "sha256": "c1fdd4aebdf2a37ab5fd11ed80fc704e31f49d16c0b000dfac5c5ac219535e3b"
+  },
+  {
+    "archive": "1998-11.zip",
+    "year": 1998,
+    "month": 11,
+    "file_count": 19,
+    "original_size": 44695552,
+    "compressed_size": 44226476,
+    "compression_ratio": 1.0494914572259928,
+    "created_date": "2025-08-18T09:09:08.764829",
+    "sha256": "05c955a9ae6719fcfd75311841aa7a90c4bcfaa90659c8d61be7b148cf2afa54"
+  },
+  {
+    "archive": "1998-12.zip",
+    "year": 1998,
+    "month": 12,
+    "file_count": 11,
+    "original_size": 125466413,
+    "compressed_size": 122694400,
+    "compression_ratio": 2.209366581636474,
+    "created_date": "2025-08-18T09:09:11.466288",
+    "sha256": "c04b2184d0ba00d3db2e020155ee005f0162525f55e3e1a8c574224bc2ae8609"
+  }
+]

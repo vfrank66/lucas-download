@@ -118,12 +118,6 @@ venv.bak/
 .spyderproject
 .spyproject
 
-*.zip
-cfn/*.zip
-cfn/*-transform.yaml
-package/*
-package
-
 # Pycharm project settings
 .idea/
 

@@ -1,14 +1,10 @@
 # Git LFS configuration for Brazilian Chamber PDF archives
-
 # Track ZIP files over 100 MB with LFS
 archives/**/*.zip filter=lfs diff=lfs merge=lfs -text
-
 # Track large log files
 *.log filter=lfs diff=lfs merge=lfs -text
-
 # Track large JSON manifests over 10 MB
 master-manifest.json filter=lfs diff=lfs merge=lfs -text
-
 # Standard Git LFS file types
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.7z filter=lfs diff=lfs merge=lfs -text
